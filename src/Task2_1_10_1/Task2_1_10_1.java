@@ -7,6 +7,20 @@ import java.awt.image.BufferedImage;
 
 public class Task2_1_10_1 {
     public static void main(String[] args) throws Exception {
+        System.out.println("""
+                Задание:\s
+                Урок 10 (в каталоге Учебных материалов указан как Модуль 2, Тема 1, Урок 19. Обработка фото с помощью лямбд)
+                    Задание: Создать несколько фильтров для обработки изображений
+                    фильтры:
+                    монохромный
+                    только красный компонент пикселей
+                    только зеленый компонент пикселей
+                    только синий компонент пикселей
+                    сепия
+
+                Решение:
+                Изображения после обрботки смотреть в файле:  Images2_1_10_1\s\n""");
+
         final BufferedImage image1 = ImageUtils.getImage("src/Task2_1_10_1/Images2_1_10_1/Picture_Mountain_Lake.png");
         final BufferedImage image2 = ImageUtils.getImage("src/Task2_1_10_1/Images2_1_10_1/Picture_Mountain_Lake.png");
         final BufferedImage image3 = ImageUtils.getImage("src/Task2_1_10_1/Images2_1_10_1/Picture_Mountain_Lake.png");

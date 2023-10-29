@@ -7,23 +7,11 @@ import java.awt.image.BufferedImage;
 
 public class Task2_1_10_1 {
     public static void main(String[] args) throws Exception {
-//        final BufferedImage image = ImageUtils.getImage("2_1_19_1_images/Picture_Mountain_Lake.png");
-        final BufferedImage image0 = ImageUtils.getImage("src/Task2_1_10_1/Images2_1_10_1/Picture_Mountain_Lake.png");
         final BufferedImage image1 = ImageUtils.getImage("src/Task2_1_10_1/Images2_1_10_1/Picture_Mountain_Lake.png");
         final BufferedImage image2 = ImageUtils.getImage("src/Task2_1_10_1/Images2_1_10_1/Picture_Mountain_Lake.png");
         final BufferedImage image3 = ImageUtils.getImage("src/Task2_1_10_1/Images2_1_10_1/Picture_Mountain_Lake.png");
         final BufferedImage image4 = ImageUtils.getImage("src/Task2_1_10_1/Images2_1_10_1/Picture_Mountain_Lake.png");
         final BufferedImage image5 = ImageUtils.getImage("src/Task2_1_10_1/Images2_1_10_1/Picture_Mountain_Lake.png");
-
-
-        // Способ 0. Применён фильтр: такая же картинка
-        ImageUtils.saveImage(image0, "src/Task2_1_10_1/Images2_1_10_1/cloned_Picture_Mountain_Lake0.png");
-//        image.getAlphaRaster() != null;
-//        final int[] rgbArray = image.getRGB(0, 0, width, height, null, 0, height*width);
-        // (int startX, int startY, int w, int h,
-        //                        int[] rgbArray, int offset, int scansize)
-        System.out.println("Выполнен Способ 0. Применён фильтр: такая же картинка.");
-        // Способ 0. Применён фильтр: такая же картинка. Конец
 
 
         // Способ 1. Применён фильтр: монохромный.

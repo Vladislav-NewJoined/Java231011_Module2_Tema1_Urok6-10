@@ -6,10 +6,12 @@ public class Task2_1_9_1 {
     public static void main(String[] args) {
         System.out.println("""
                 Задание:\s
-                Урок 9. Преобразование (collect).
+                Урок 9. Преобразование (collect) (в каталоге Учебных материалов раздел указан как 
+                    Модуль 2, Тема 1, Урок 16. Преобразование (collect))
                     Задание: Создайте поток каждым из предложенных в данном уроке способов.
 
                 Решение:\s""");
+
         ArrayList<StudentsAge> studentsAge = new ArrayList<>();
         studentsAge.add(new StudentsAge("Саша", 19, 180));
         studentsAge.add(new StudentsAge("Женя", 20, 170));
